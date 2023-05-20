@@ -1,0 +1,27 @@
+from within ./server/
+npm i -g nodemon
+npm i express body-parser bcrypt cors dotenv gridfs-stream multer multer-gridfs-storage helmet morgan jsonwebtoken mongoose --legacy-peer-deps
+npm init -y
+
+npm start
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gjsimmons/mybook-server.git
+git push -u origin main
+
+from root folder
+npm i -g npx
+npx create-react-app client
+
+from within ./client/
+npm i react-redux @reduxjs/toolkit redux-persist react-dropzone dotenv formik yup react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/gjsimmons/mybook.git
+git push -u origin main
